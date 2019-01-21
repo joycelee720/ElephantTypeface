@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ElephantTypeface"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "ElephantTypeface can be used now."
 
   # This description is used to generate tags and improve search results.
@@ -27,6 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                       "0.0.1 has updated now, welcome to use"
                       "0.0.2 has updated now, welcome to use"
+                      "0.0.3 has updated now, welcome to use"
                    DESC
 
   spec.homepage     = "https://github.com/joycelee720/ElephantTypeface"
@@ -92,12 +93,12 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "*"
-  # spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "launchImg"
+  spec.exclude_files = "ElephantTypeface.podspec", "LICENSE", "README.md"
 
   # spec.public_header_files = "Classes/**/*.h"
-
-
+  spec.vendored_libraries = "libKokoLuAFN.a"
+  spec.vendored_frameworks = "WebPDemux.framework", "WebP.framework"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -107,7 +108,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "*.ttf", "*.wav"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
