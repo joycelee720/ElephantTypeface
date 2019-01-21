@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ElephantTypeface"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "ElephantTypeface can be used now."
 
   # This description is used to generate tags and improve search results.
@@ -28,6 +28,7 @@ Pod::Spec.new do |spec|
                       "0.0.1 has updated now, welcome to use"
                       "0.0.2 has updated now, welcome to use"
                       "0.0.3 has updated now, welcome to use"
+                      "0.0.4 has updated now, welcome to use"
                    DESC
 
   spec.homepage     = "https://github.com/joycelee720/ElephantTypeface"
@@ -93,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "launchImg"
+  # spec.source_files  = ""
   spec.exclude_files = "ElephantTypeface.podspec", "LICENSE", "README.md"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -108,7 +109,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  spec.resources = "*.ttf", "*.wav"
+  spec.resources = "*.ttf", "*.wav", "launchImg"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
