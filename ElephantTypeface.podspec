@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ElephantTypeface"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "ElephantTypeface can be used now."
 
   # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |spec|
                       "0.0.2 has updated now, welcome to use"
                       "0.0.3 has updated now, welcome to use"
                       "0.0.4 has updated now, welcome to use"
+                      "0.0.5 has updated now, welcome to use"
                    DESC
 
   spec.homepage     = "https://github.com/joycelee720/ElephantTypeface"
@@ -98,7 +99,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "ElephantTypeface.podspec", "LICENSE", "README.md"
 
   # spec.public_header_files = "Classes/**/*.h"
-  spec.vendored_libraries = "libKokoLuAFN.a"
+  # spec.vendored_libraries = ".a"
   spec.vendored_frameworks = "WebPDemux.framework", "WebP.framework"
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
